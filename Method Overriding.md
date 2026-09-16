@@ -1,4 +1,3 @@
-
 # 🐟 Method Overriding-Fish and Shark Class Inheritance in Python
 
 ## 🧠 AIM:
@@ -20,19 +19,19 @@ class Fish:
     def type(self):
         print("fish")
 
-class Shark(Fish):
+
+class Shark:
     def type(self):
         print("shark")
+
 
 obj_goldfish = Fish()
 obj_hammerhead = Shark()
 
-
-for fish in (obj_goldfish, obj_hammerhead):
-    fish.type()
+obj_goldfish.type()
+obj_hammerhead.type()
 ```
 ## OUTPUT
-![8aff9719-5aa6-47be-8e91-7658f4e46019](https://github.com/user-attachments/assets/297c1a1a-af6f-40e7-80e7-4f8d1a621a80)
+<img width="839" height="289" alt="image" src="https://github.com/user-attachments/assets/4352198c-8aa7-4785-99ac-8a2ac652becc" />
 ## RESULT
-Thus, the program is successfully executed
-
+Thus,the program is executed successfully.
